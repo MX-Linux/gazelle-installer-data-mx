@@ -1,0 +1,24 @@
+installer-data-mx (18.4.3) mx; urgency=medium
+
+  * added POPULATE_MEDIA_MOUNTPOINTS variable 
+
+ -- dolphinoracle <dolphin@mx>  Thu, 12 Apr 2018 20:03:35 -0400
+
+installer-data-mx (18.4.2) mx; urgency=medium
+
+  * new services model (adrian)
+
+ -- dolphinoracle <dolphin@mx>  Sun, 08 Apr 2018 20:07:08 -0400
+
+installer-data-mx (18.4.1) mx; urgency=medium
+
+  * changes to true/false for boolean type operations 
+
+ -- dolphinoracle <dolphin@mx>  Sun, 08 Apr 2018 10:42:34 -0400
+
+installer-data-mx (18.4.0) mx; urgency=low 
+ 
+  * Initial Release.
+
+ -- dolphinoracle <dolphinoracle@gmail.com>  Sat, 07 Apr 2018 09:20:00 +0200
+
