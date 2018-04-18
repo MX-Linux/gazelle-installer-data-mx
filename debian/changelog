@@ -1,3 +1,9 @@
+gazelle-installer-data-mx (18.4.4) mx; urgency=medium
+
+  * update to deb control file
+
+ -- dolphinoracle <dolphin@mx>  Tue, 17 Apr 2018 20:56:40 -0400
+
 installer-data-mx (18.4.3) mx; urgency=medium
 
   * added POPULATE_MEDIA_MOUNTPOINTS variable 
