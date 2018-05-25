@@ -1,36 +1,17 @@
-gazelle-installer-data-mx (18.4.5) mx; urgency=medium
+gazelle-installer-data (18.5.1) mx; urgency=medium
+
+  * moved rc.local.install and live-to-installed to data package 
+
+ -- dolphinoracle <dolphin@mx>  Tue, 01 May 2018 20:38:43 -0400
+
+gazelle-installer-data (18.4.5) mx; urgency=medium
 
   * added comments to installer.conf
 
- -- dolphinoracle <dolphin@mx>  Tue, 17 Apr 2018 21:27:13 -0400
+ -- dolphinoracle <dolphin@mx>  Tue, 17 Apr 2018 21:24:46 -0400
 
-gazelle-installer-data-mx (18.4.4) mx; urgency=medium
+gazelle-installer-data (18.4.4) mx; urgency=medium
 
-  * update to deb control file
+  * initial commit
 
- -- dolphinoracle <dolphin@mx>  Tue, 17 Apr 2018 20:56:40 -0400
-
-installer-data-mx (18.4.3) mx; urgency=medium
-
-  * added POPULATE_MEDIA_MOUNTPOINTS variable 
-
- -- dolphinoracle <dolphin@mx>  Thu, 12 Apr 2018 20:03:35 -0400
-
-installer-data-mx (18.4.2) mx; urgency=medium
-
-  * new services model (adrian)
-
- -- dolphinoracle <dolphin@mx>  Sun, 08 Apr 2018 20:07:08 -0400
-
-installer-data-mx (18.4.1) mx; urgency=medium
-
-  * changes to true/false for boolean type operations 
-
- -- dolphinoracle <dolphin@mx>  Sun, 08 Apr 2018 10:42:34 -0400
-
-installer-data-mx (18.4.0) mx; urgency=low 
- 
-  * Initial Release.
-
- -- dolphinoracle <dolphinoracle@gmail.com>  Sat, 07 Apr 2018 09:20:00 +0200
-
+ -- dolphinoracle <dolphinoracle@gmail.com>  Tue, 17 Apr 2018 20:53:45 -0400
