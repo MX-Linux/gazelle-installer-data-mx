@@ -6,7 +6,7 @@ Build-Depends: debhelper (>=7.0.50~),
 Standards-Version: 3.9.5
 Vcs-Git: https://github.com/gazelle-installer/gazelle-installer-data
 
-Package: gazelle-installer-data
+Package: gazelle-installer-data-mx
 Depends: 
 Provides: gazelle-installer-data
 Replaces: mx-installer (<< 18.5)
