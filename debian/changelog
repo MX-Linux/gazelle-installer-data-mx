@@ -1,3 +1,9 @@
+gazelle-installer-data (18.11) mx; urgency=medium
+
+  * updated version to mx18
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 23 Nov 2018 17:44:42 -0500
+
 gazelle-installer-data (18.10) mx; urgency=medium
 
   * update translations 

@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 23 Nov 2018 17:44:42 -0500
+Source: gazelle-installer-data
+Binary: gazelle-installer-data-mx
+Architecture: source all
+Version: 18.11
+Distribution: mx
+Urgency: medium
+Maintainer: dolphin oracle  <dolphinoracle@gmail.com>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ gazelle-installer-data-mx - Branding and installer.conf data for gazelle-installer
+Changes:
+ gazelle-installer-data (18.11) mx; urgency=medium
+ .
+   * updated version to mx18
+Checksums-Sha1:
+ 3320053739ce6cce261e1ec71919615eeb1d3d52 686 gazelle-installer-data_18.11.dsc
+ 893a2e780d95046b3e945966fdc9e620bdc8bad8 207648 gazelle-installer-data_18.11.tar.xz
+ 083be51610f7b5b1dec73cd19ad5ab984451d84b 197120 gazelle-installer-data-mx_18.11_all.deb
+ 140066e4032058aea548e4918cc4c4d6bef4d2ce 5035 gazelle-installer-data_18.11_amd64.buildinfo
+Checksums-Sha256:
+ 9ebe748856fe32ecaecf5af779a8c68f18940681bd92c4b00cf1339d72e334b6 686 gazelle-installer-data_18.11.dsc
+ da85ea4c799bbd9db26845bbcc79f88c42603e266a25d39a6c95eca2d75046c8 207648 gazelle-installer-data_18.11.tar.xz
+ 9a708949b80cd7712ee10a5f09e3654df8936906b20fe65666ac5b61fe7206ea 197120 gazelle-installer-data-mx_18.11_all.deb
+ aa93bb525aa3218714ce51d922cc1cea2e11ef4fdc69a25fb4620d41d2e113ee 5035 gazelle-installer-data_18.11_amd64.buildinfo
+Files:
+ ccc5469bea2c0ce4cdb4879009f0021b 686 admin optional gazelle-installer-data_18.11.dsc
+ b87ff9e74d827e653ff7d5a350dfd75b 207648 admin optional gazelle-installer-data_18.11.tar.xz
+ 32f8f2e59938e80b4c159947d8bf0ef6 197120 admin optional gazelle-installer-data-mx_18.11_all.deb
+ 0b409042f17e59f22c356fa7724228f4 5035 admin optional gazelle-installer-data_18.11_amd64.buildinfo
