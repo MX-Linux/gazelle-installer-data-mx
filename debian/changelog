@@ -1,3 +1,9 @@
+gazelle-installer-data (19.03.01) mx; urgency=medium
+
+  * mx-19 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 10 Feb 2019 17:43:57 -0500
+
 gazelle-installer-data (19.02.01) mx; urgency=medium
 
   * update version number 
