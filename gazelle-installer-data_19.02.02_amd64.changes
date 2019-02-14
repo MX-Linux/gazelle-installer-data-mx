@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 13 Feb 2019 10:19:12 -0500
+Source: gazelle-installer-data
+Binary: gazelle-installer-data-mx
+Architecture: source all
+Version: 19.02.02
+Distribution: mx
+Urgency: medium
+Maintainer: dolphin oracle  <dolphinoracle@gmail.com>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ gazelle-installer-data-mx - Branding and installer.conf data for gazelle-installer
+Changes:
+ gazelle-installer-data (19.02.02) mx; urgency=medium
+ .
+   * catchup with gazelle-installer translations service.list
+Checksums-Sha1:
+ c1a18023f70dd7bbb9f9682efb3e38af9ff17a94 698 gazelle-installer-data_19.02.02.dsc
+ 22ad7e5afe9896827061e711b330cfe43eabe827 209328 gazelle-installer-data_19.02.02.tar.xz
+ 23d80f52ea1bb1886e9e4c11f4e602fe05c3b298 198896 gazelle-installer-data-mx_19.02.02_all.deb
+ bba90ac80092bfe8a313d2b6d06b79108ba690c7 5096 gazelle-installer-data_19.02.02_amd64.buildinfo
+Checksums-Sha256:
+ e0500bc96a6cb55302436b140b73719e665a060fd81b4ba7ad2bc2bba88cd24c 698 gazelle-installer-data_19.02.02.dsc
+ 4609d254489e075fd7bee223a53ba7e9364848c4d804a009341ed15fec3775cd 209328 gazelle-installer-data_19.02.02.tar.xz
+ 1ab4f256eb1888b6ddd20e96fab24e780f3bedc111c5a4ac4a0e97025f1c0cf2 198896 gazelle-installer-data-mx_19.02.02_all.deb
+ bf76df74ccff674d8a8723fd0159d3177896a2460eee894da8156cdb83e24cbb 5096 gazelle-installer-data_19.02.02_amd64.buildinfo
+Files:
+ 3aff2d1a49a4d2facfff1cf47a900719 698 admin optional gazelle-installer-data_19.02.02.dsc
+ 4022fd058a8c84d257cf4e5b3663f2f5 209328 admin optional gazelle-installer-data_19.02.02.tar.xz
+ 6367ecc63fb187abace314ecf59d5f04 198896 admin optional gazelle-installer-data-mx_19.02.02_all.deb
+ 538ae7246742aa3cc9cbcc7c9b7eb023 5096 admin optional gazelle-installer-data_19.02.02_amd64.buildinfo
