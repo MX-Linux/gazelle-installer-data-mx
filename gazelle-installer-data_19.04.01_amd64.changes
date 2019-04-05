@@ -15,17 +15,17 @@ Changes:
  .
    * revised for 18.2
 Checksums-Sha1:
- 59047ba83abe65789500796128b3e7aebac64635 698 gazelle-installer-data_19.04.01.dsc
- aabe8cc69cdc9bdf1541809001f3e8cb9bda9334 209552 gazelle-installer-data_19.04.01.tar.xz
- 69d7b8b2e80db72cb5a5494167c3cb01a9a29ed6 199092 gazelle-installer-data-mx_19.04.01_all.deb
- e88c1a07af6c08f3c2f13a19d5230a28af874509 5096 gazelle-installer-data_19.04.01_amd64.buildinfo
+ e9d0fd7b0bb6a2a3d81261b92b883ff61f5994e6 698 gazelle-installer-data_19.04.01.dsc
+ 42f887809594c4bebf5a95926a0062619b42db49 209636 gazelle-installer-data_19.04.01.tar.xz
+ 5fb77f252d51fd524669308015461317e14a18ab 199180 gazelle-installer-data-mx_19.04.01_all.deb
+ 9868d1af52646eb7040e8b1ca1fbe6eae9a65e50 5096 gazelle-installer-data_19.04.01_amd64.buildinfo
 Checksums-Sha256:
- 2fcd034afe8083350a2f4fafea68b8513e784e7058132a6f1c0a0c5cc8ffd37a 698 gazelle-installer-data_19.04.01.dsc
- 4948268c4e6d8f19d1c290836a4ee5fa9b6c550bf21b45103cc05f70d2a34844 209552 gazelle-installer-data_19.04.01.tar.xz
- 93728c40c16c13ec3ec1b80b80e9215b0f3842068bf9b1d7f0423523b8329e5e 199092 gazelle-installer-data-mx_19.04.01_all.deb
- 5aba0b18ff217c47403f41857d7af416816e6ee6d199a834009e42d8fa663be9 5096 gazelle-installer-data_19.04.01_amd64.buildinfo
+ 5836765294237adca975aaf39de476f67ab0e255830aa12612f18d764df6d479 698 gazelle-installer-data_19.04.01.dsc
+ b33beb070910f94e4df53f42f50654461599b5eb978ff33e83ced71d619045a4 209636 gazelle-installer-data_19.04.01.tar.xz
+ d82bb15fbc1b39cac083f042861c652c4a035c792a9540d34b96f33c34e4d8d1 199180 gazelle-installer-data-mx_19.04.01_all.deb
+ 8797a0a792e8e2124b36e2e6ed3ef7b6cd300ad391c6bc94bcdfc149ddf9f809 5096 gazelle-installer-data_19.04.01_amd64.buildinfo
 Files:
- a41f0b2002d85f3f14d1f7d51abd4cb7 698 admin optional gazelle-installer-data_19.04.01.dsc
- faf7b6d659208ad54c0d03647fbbb0a0 209552 admin optional gazelle-installer-data_19.04.01.tar.xz
- 54a8d400ea51736889becab3bb302965 199092 admin optional gazelle-installer-data-mx_19.04.01_all.deb
- 79bcefefa62420a777366d7088e447b4 5096 admin optional gazelle-installer-data_19.04.01_amd64.buildinfo
+ a1889ea33d23b48f7ca16859d9fe840a 698 admin optional gazelle-installer-data_19.04.01.dsc
+ b662228515962bdeb9328f4bad6f60f6 209636 admin optional gazelle-installer-data_19.04.01.tar.xz
+ 25d2ce09e79f23811f9384e4f5d3e88d 199180 admin optional gazelle-installer-data-mx_19.04.01_all.deb
+ eda93ea7b989b3d9bb3e31971addc9f9 5096 admin optional gazelle-installer-data_19.04.01_amd64.buildinfo

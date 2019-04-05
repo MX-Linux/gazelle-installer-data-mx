@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 7.0.50~)
 Package-List:
  gazelle-installer-data-mx deb admin optional arch=all
 Checksums-Sha1:
- aabe8cc69cdc9bdf1541809001f3e8cb9bda9334 209552 gazelle-installer-data_19.04.01.tar.xz
+ 42f887809594c4bebf5a95926a0062619b42db49 209636 gazelle-installer-data_19.04.01.tar.xz
 Checksums-Sha256:
- 4948268c4e6d8f19d1c290836a4ee5fa9b6c550bf21b45103cc05f70d2a34844 209552 gazelle-installer-data_19.04.01.tar.xz
+ b33beb070910f94e4df53f42f50654461599b5eb978ff33e83ced71d619045a4 209636 gazelle-installer-data_19.04.01.tar.xz
 Files:
- faf7b6d659208ad54c0d03647fbbb0a0 209552 gazelle-installer-data_19.04.01.tar.xz
+ b662228515962bdeb9328f4bad6f60f6 209636 gazelle-installer-data_19.04.01.tar.xz
