@@ -1,3 +1,9 @@
+gazelle-installer-data (19.04.01) mx; urgency=medium
+
+  * revised for 18.2
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 04 Apr 2019 21:54:44 -0400
+
 gazelle-installer-data (19.02.02) mx; urgency=medium
 
   * catchup with gazelle-installer translations service.list
