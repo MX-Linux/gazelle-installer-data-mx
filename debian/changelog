@@ -1,3 +1,10 @@
+gazelle-installer-data (19.06) mx; urgency=medium
+
+  * mx 19
+  * sync with upstream 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Tue, 28 May 2019 20:36:03 -0400
+
 gazelle-installer-data (19.05.01) mx; urgency=medium
 
   * revised for 18.3 
