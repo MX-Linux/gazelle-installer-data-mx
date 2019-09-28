@@ -1,3 +1,9 @@
+gazelle-installer-data (19.09.01) mx; urgency=medium
+
+  * refresh translatons
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 28 Sep 2019 15:07:02 -0400
+
 gazelle-installer-data (19.07.01) mx; urgency=medium
 
   * social links now a list of links 
