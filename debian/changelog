@@ -1,3 +1,9 @@
+gazelle-installer-data (20.01.01) mx; urgency=medium
+
+  * remove installer from desktops of all users
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Mon, 13 Jan 2020 20:21:29 -0500
+
 gazelle-installer-data (19.09.01) mx; urgency=medium
 
   * refresh translatons

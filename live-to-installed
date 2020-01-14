@@ -65,6 +65,9 @@ main() {
     rm_file       etc/*-
     rm_file       lib/udev/rules.d/92-console-font.rules
 
+	rm_file_all_user_home_dirs_desktops  minstall.desktop
+    rm_file_all_user_home_dirs_desktops  Installer.desktop
+
     cp_file       /usr/share/antiX/rc.local.install etc/rc.local
     cp_file       /usr/share/antiX/issue etc/issue
     #cp_file       /usr/share/slim/themes/antiX/slim-install.conf etc/slim.conf
@@ -218,5 +221,14 @@ wm_files() {
         printf "$str\n" $wm
     done
 }
+
+rm_file_all_user_home_dirs_desktops()
+{
+	local dir file="$1"
+	dir="$IDIR/home/*/Desktop"
+    file="$dir/$file"
+    $PRETEND find $file -xtype f -delete
+}
+
 
 main "$@"
