@@ -1,3 +1,9 @@
+gazelle-installer-data (20.06) mx; urgency=medium
+
+  * remove autologin from sddm.conf
+
+ -- Adrian <adrian@mxlinux.org>  Mon, 15 Jun 2020 21:34:08 -0400
+
 gazelle-installer-data (20.01.01) mx; urgency=medium
 
   * remove installer from desktops of all users
