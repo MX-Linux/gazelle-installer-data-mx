@@ -1,3 +1,9 @@
+gazelle-installer-data (20.11.01) mx; urgency=medium
+
+  * remove installer gazelle.lnk idesk link (mx-fluxbox)
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 27 Nov 2020 14:20:19 -0500
+
 gazelle-installer-data (20.06) mx; urgency=medium
 
   * remove autologin from sddm.conf
