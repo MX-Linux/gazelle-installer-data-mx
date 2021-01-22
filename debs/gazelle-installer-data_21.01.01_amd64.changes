@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 21 Jan 2021 20:37:50 -0500
+Source: gazelle-installer-data
+Binary: gazelle-installer-data-mx
+Architecture: source all
+Version: 21.01.01
+Distribution: mx
+Urgency: medium
+Maintainer: dolphin oracle  <dolphinoracle@gmail.com>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ gazelle-installer-data-mx - Branding and installer.conf data for gazelle-installer
+Changes:
+ gazelle-installer-data (21.01.01) mx; urgency=medium
+ .
+   * update installer.conf
+Checksums-Sha1:
+ b5626c4ff019616938f2837152f6525ed23bca42 698 gazelle-installer-data_21.01.01.dsc
+ 0ad3f035e0e5cde7985e03cd0e7c7c6a7bc21e38 210320 gazelle-installer-data_21.01.01.tar.xz
+ e050cda24534ed3fac3d0aeeaa64150b2eceb25c 200112 gazelle-installer-data-mx_21.01.01_all.deb
+ 57fdf72bfda22458d6c1eb3257003a38f6962932 4801 gazelle-installer-data_21.01.01_amd64.buildinfo
+Checksums-Sha256:
+ d494f036799c2890038e27058c3cd77f6074de684e3edca9882184bfeaeccca0 698 gazelle-installer-data_21.01.01.dsc
+ d47d80382148e615de0c726c5e85e2d93be5d7fb7fa2a22dcadc2cdf83e60325 210320 gazelle-installer-data_21.01.01.tar.xz
+ eead1d878c0210be65316f2389aae1dfee548fc6a2e154b339679f93c6cf77b7 200112 gazelle-installer-data-mx_21.01.01_all.deb
+ d18d2914aba74b5004419cddcfedb8076d4b342b0d17b80e34d4f1a2160d1786 4801 gazelle-installer-data_21.01.01_amd64.buildinfo
+Files:
+ b1ad56f87f0a4e6138ed06ab11aa39fd 698 admin optional gazelle-installer-data_21.01.01.dsc
+ 7683f15f1d04687d185612bc3c9d00a0 210320 admin optional gazelle-installer-data_21.01.01.tar.xz
+ a8d8c48202c907a81471856f7e00b789 200112 admin optional gazelle-installer-data-mx_21.01.01_all.deb
+ 33ef47fd87e9d22f208a1307689948f6 4801 admin optional gazelle-installer-data_21.01.01_amd64.buildinfo

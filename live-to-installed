@@ -67,6 +67,7 @@ main() {
 
 	rm_file_all_user_home_dirs_desktops  minstall.desktop
     rm_file_all_user_home_dirs_desktops  Installer.desktop
+    rm_file_all_user_home_dirs .idesktop/gazelle.lnk
 
     cp_file       /usr/share/antiX/rc.local.install etc/rc.local
     cp_file       /usr/share/antiX/issue etc/issue
@@ -228,6 +229,14 @@ rm_file_all_user_home_dirs_desktops()
 {
 	local dir file="$1"
 	dir="$IDIR/home/*/Desktop"
+    file="$dir/$file"
+    $PRETEND find $file -xtype f -delete
+}
+
+rm_file_all_user_home_dirs()
+{
+	local dir file="$1"
+	dir="$IDIR/home/*/"
     file="$dir/$file"
     $PRETEND find $file -xtype f -delete
 }
