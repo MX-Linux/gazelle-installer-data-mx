@@ -1,3 +1,9 @@
+gazelle-installer-data (21.02.01) mx; urgency=medium
+
+  * first bullseye build 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 17 Feb 2021 22:56:13 -0500
+
 gazelle-installer-data (21.01.01) mx; urgency=medium
 
   * update installer.conf 
