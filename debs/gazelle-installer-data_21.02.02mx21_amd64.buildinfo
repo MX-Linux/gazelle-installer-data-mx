@@ -2,19 +2,19 @@ Format: 1.0
 Source: gazelle-installer-data
 Binary: gazelle-installer-data-mx
 Architecture: all source
-Version: 21.02.01mx21
+Version: 21.02.02mx21
 Checksums-Md5:
- e57a98ce5f1258ccb408ae28b01c699a 714 gazelle-installer-data_21.02.01mx21.dsc
- e8dbbeb91cf1a7c018ddb4c4e06b4806 200176 gazelle-installer-data-mx_21.02.01mx21_all.deb
+ 506722365a3433e5a273d7bb3b7ca391 714 gazelle-installer-data_21.02.02mx21.dsc
+ 0a181207b6cb4fb922aa4a0c64a330c2 200212 gazelle-installer-data-mx_21.02.02mx21_all.deb
 Checksums-Sha1:
- 9f76c195bb588cc8395fc9438356bf461effe463 714 gazelle-installer-data_21.02.01mx21.dsc
- e4a8632f196acf6650dfaf49a82ffc9a219bb422 200176 gazelle-installer-data-mx_21.02.01mx21_all.deb
+ 498ba73feb3b8762aa8698f16de3027e786e7a03 714 gazelle-installer-data_21.02.02mx21.dsc
+ 5c2db7928e748ca2633130f5e56539e07b51189b 200212 gazelle-installer-data-mx_21.02.02mx21_all.deb
 Checksums-Sha256:
- 6e2170d718a7b2672b70a1ae61af143c9699bcf8598d09186305e616b4840736 714 gazelle-installer-data_21.02.01mx21.dsc
- 5531373bbc57cf51406c329db269417507589c38bd57c6c97fd24237d20aa14e 200176 gazelle-installer-data-mx_21.02.01mx21_all.deb
+ 60c30a841b05ada1e1b6bc71b6add24add0c404f815900bbe1be93bfe85f0f93 714 gazelle-installer-data_21.02.02mx21.dsc
+ 53c4ca3ef0356b3c23d64aee3383923f1615a96ba044075f939624034046d8be 200212 gazelle-installer-data-mx_21.02.02mx21_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Wed, 17 Feb 2021 22:58:10 -0500
+Build-Date: Sat, 27 Feb 2021 21:10:06 -0500
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-libraries
@@ -162,4 +162,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=4"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1613620573"
+ SOURCE_DATE_EPOCH="1614478144"

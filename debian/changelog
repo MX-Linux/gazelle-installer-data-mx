@@ -1,3 +1,9 @@
+gazelle-installer-data (21.02.02mx21) mx; urgency=medium
+
+  * remove minstall.desktop from /etc/skel/Desktop, if present
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 27 Feb 2021 21:09:04 -0500
+
 gazelle-installer-data (21.02.01mx21) mx; urgency=medium
 
   * first bullseye build 
