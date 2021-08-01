@@ -1,3 +1,9 @@
+gazelle-installer-data (21.07.01mx21) mx; urgency=medium
+
+  * don't clear /media from live-to-installed 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 01 Aug 2021 00:01:49 -0400
+
 gazelle-installer-data (21.02.02mx21) mx; urgency=medium
 
   * remove minstall.desktop from /etc/skel/Desktop, if present
