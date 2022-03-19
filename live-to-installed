@@ -85,6 +85,8 @@ main() {
     rm_file        usr/share/applications/antix/persist_setup.desktop 
     rm_file        usr/share/applications/antix/persist_save.desktop
     rm_file        usr/share/applications/antix/remaster.desktop
+    rm_file		  /etc/systemd/system-generators/systemd-fstab-generator
+    rm_file       /etc/systemd/system-generators/systemd-gpt-auto-generator
 
     sed_line      's/^\s*(session\s+[^\s]+\s+pam_lastlog.so).*/\1/' etc/pam.d/login
     sed_line      's/^User=.*/User=/' etc/sddm.conf
