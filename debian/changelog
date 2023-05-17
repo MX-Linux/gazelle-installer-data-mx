@@ -1,3 +1,9 @@
+gazelle-installer-data (23.05.01mx23) mx; urgency=medium
+
+  * update icon 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Tue, 16 May 2023 20:32:00 -0400
+
 gazelle-installer-data (23.02.01mx23) mx; urgency=medium
 
   * update version string
