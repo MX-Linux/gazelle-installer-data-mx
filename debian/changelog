@@ -1,3 +1,9 @@
+gazelle-installer-data (23.07.01mx23) mx; urgency=medium
+
+  * add zswapram 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Mon, 03 Jul 2023 10:00:17 -0400
+
 gazelle-installer-data (23.05.01mx23) mx; urgency=medium
 
   * update icon 
