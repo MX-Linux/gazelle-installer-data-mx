@@ -1,3 +1,9 @@
+gazelle-installer-data (23.07.03mx23) mx; urgency=medium
+
+  * LUKS compatibility setting.
+
+ -- Adrian <adrian@mxlinux.org>  Thu, 20 Jul 2023 15:48:04 -0400
+
 gazelle-installer-data (23.07.02mx23) mx; urgency=medium
 
   * new services format
