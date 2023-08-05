@@ -1,3 +1,9 @@
+gazelle-installer-data (23.08mx23) mx; urgency=medium
+
+  * Revert LUKS compatibility setting.
+
+ -- Adrian <adrian@mxlinux.org>  Sat, 05 Aug 2023 18:21:11 -0400
+
 gazelle-installer-data (23.07.03mx23) mx; urgency=medium
 
   * LUKS compatibility setting.
