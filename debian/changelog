@@ -1,3 +1,9 @@
+gazelle-installer-data (25.02mx25) mx; urgency=medium
+
+  * mx25 version string
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 06 Feb 2025 22:22:57 -0500
+
 gazelle-installer-data (24.10mx23) mx; urgency=medium
 
   * add customization options (mx installer 24.10.01)
