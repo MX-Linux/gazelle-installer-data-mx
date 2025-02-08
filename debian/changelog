@@ -1,3 +1,10 @@
+gazelle-installer-data (25.02.01mx23) mx; urgency=medium
+
+  * revert string change
+  * new installer.conf configuration (breaks mx-installer less than 25.02)
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 08 Feb 2025 10:52:44 -0500
+
 gazelle-installer-data (25.02mx25) mx; urgency=medium
 
   * mx25 version string
