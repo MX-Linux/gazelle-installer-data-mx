@@ -1,4 +1,4 @@
-gazelle-installer-data (25.02.01mx23) mx; urgency=medium
+gazelle-installer-data (25.02.02mx23) mx; urgency=medium
 
   * revert string change
   * new installer.conf configuration (breaks mx-installer less than 25.02)
