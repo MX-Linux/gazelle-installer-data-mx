@@ -1,3 +1,9 @@
+gazelle-installer-data (25.03.02mx25) mx; urgency=medium
+
+  * remove zramswap from services list
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 29 Mar 2025 11:29:12 -0400
+
 gazelle-installer-data (25.03.01mx25) mx; urgency=medium
 
   * mx25 version string
