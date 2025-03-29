@@ -31,7 +31,6 @@ bluetooth = Networking, Bluetooth
 rsync = Networking, File copying tool
 cups = Printing, Linux and OS X printer service
 cups-browsed = Printing, CUPS Bonjour (zeroconf) printer discovery service
-zramswap = Admin, compressed swap space in ram
 
 [am]
 anacron = Admin, አንዳንድ ጊዜ ትእዛዝ ማስኬጃ
@@ -58,7 +57,6 @@ bluetooth = ኔትዎርክ, ብሉቱዝ
 rsync = ኔትዎርክ, File copying tool
 cups = በ ማተም ላይ, Linux and OS X የ ማተሚያ ግልጋሎት
 cups-browsed = በ ማተም ላይ, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = አስተዳዳሪ፣ በራም ውስጥ የታመቀ የመለዋወጫ ቦታ
 
 [ar]
 anacron = Admin, Runs commands periodically
@@ -85,7 +83,6 @@ bluetooth = Networking, Bluetooth
 rsync = Networking, File copying tool
 cups = Printing, Linux and OS X printer service
 cups-browsed = Printing, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = ﻲﺋﺍﻮﺸﻌﻟﺍ ﻝﻮﺻﻮﻟﺍ ﺓﺮﻛﺍﺫ ﻲﻓ ﺔﻃﻮﻐﻀﻣ ﺔﻟﺩﺎﺒﻣ ﺔﺣﺎﺴﻣ ، ﻑﺮﺸﻣ
 
 [bg]
 anacron = Admin, Runs commands periodically
@@ -112,7 +109,6 @@ bluetooth = Networking, Bluetooth
 rsync = Networking, File copying tool
 cups = Printing, Linux and OS X printer service
 cups-browsed = Printing, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Администратор, компресирано суап пространство в ram
 
 [ca]
 anacron = Administració, Executa ordres periòdicament
@@ -139,7 +135,6 @@ bluetooth = Xarxa, Bluetooth
 rsync = Xarxa, Eina de còpia de fitxers
 cups = Impressió , Servei d'impressió per a Linux i OS X
 cups-browsed = Impressió , Servei de descoberta d'impressores CUPS Bonjour (zeroconf)
-zswapram = Administrador, espai d'intercanvi comprimit a la memòria RAM
 
 [cs]
 anacron = Admin, Spouští příkazy periodicky
@@ -166,7 +161,6 @@ bluetooth = Síť, Bluetooth
 rsync = Síť, File copying tool
 cups = Tisk, Linux a OSX služby tisku
 cups-browsed = Tisk, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Admine, komprimovaný odkládací prostor v ram
 
 [da]
 anacron = Administration, Kører kommandoer periodisk
@@ -193,7 +187,6 @@ bluetooth = Netværk, Bluetooth
 rsync = Netværk, Filkopieringsværktøj
 cups = Udskrivning, Linux- og OS X-printertjeneste
 cups-browsed = Udskrivning, CUPS Bonjour (zeroconf) -printeropdagelsestjeneste
-zswapram = Admin, komprimeret swap-plads i ram
 
 [de]
 anacron = Administration, Befehle periodisch ausführen
@@ -220,7 +213,6 @@ bluetooth = Netzwerkeinstellungen, Bluetooth
 rsync = Netzwerkeinstellungen, Werkzeug zum Kopieren von Dateien
 cups = Drucken, Linux und OS X Druckerdienst
 cups-browsed = Drucken, CUPS Bonjour (zeroconf) Dienst zum Druckerauffinden
-zswapram = Admin, komprimierter Auslagerungsspeicher im RAM
 
 [el]
 anacron = Διαχείριση, Runs commands periodically
@@ -247,7 +239,6 @@ bluetooth = Δικτύωση, Bluetooth
 rsync = Δικτύωση, Εργαλείο αντιγραφής αρχείων
 cups = Εκτύπωση, Linux and OS X printer service
 cups-browsed = Εκτύπωση, Υπηρεσία εντοπισμού εκτυπωτών CUPS Bonjour (zeroconf)
-zswapram = Διαχειριστής, συμπιεσμένος χώρος ανταλλαγής στη μνήμη ram
 
 [es]
 anacron = Admin, Ejecuta órdenes periódicamente
@@ -274,7 +265,6 @@ bluetooth = Conexión entre redes, Bluetooth
 rsync = Conexión entre redes, Herramienta para copiar ficheros
 cups = Impresión, Servicio de impresión para Linux y OS X
 cups-browsed = Impresión, CUPS Bonjour (zeroconf) servicio para visualización de impresoras
-zswapram = Admin, espacio de intercambio comprimido en ram
 
 [et]
 anacron = Admin, Runs commands periodically
@@ -301,7 +291,6 @@ bluetooth = Networking, Bluetooth
 rsync = Networking, File copying tool
 cups = Printing, Linux and OS X printer service
 cups-browsed = Printing, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Administraator, tihendatud vahetusruum ramis
 
 [eu]
 anacron = Admin, Runs commands periodically
@@ -328,7 +317,6 @@ bluetooth = Networking, Bluetooth
 rsync = Networking, File copying tool
 cups = Printing, Linux and OS X printer service
 cups-browsed = Printing, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Administratzailea, truke-espazio konprimitua aramean
 
 [fa]
 anacron = Admin, Runs commands periodically
@@ -355,7 +343,6 @@ bluetooth = Networking, Bluetooth
 rsync = Networking, File copying tool
 cups = Printing, Linux and OS X printer service
 cups-browsed = Printing, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = ﻡﺭ ﺭﺩ ﻩﺩﺮﺸﻓ ﻪﻟﺩﺎﺒﻣ ﯼﺎﻀﻓ ،ﺮﯾﺪﻣ
 
 [fi]
 anacron = Ylläpitäjä, Suorittaa komennot säännöllisesti
@@ -382,7 +369,6 @@ bluetooth = Verkko, Bluetooth
 rsync = Verkko, Tiedostojen kopiointityökalu
 cups = Tulostus, Linux and OS X printer service
 cups-browsed = Tulostus, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Admin, pakattu swap-tila ramissa
 
 [fr]
 anacron = Administrateur, Exécute périodiquement des commandes
@@ -409,7 +395,6 @@ bluetooth = Réseaux, Bluetooth
 rsync = Réseaux, Outil de copie de fichier
 cups = Imprimantes, Service d'impression pour Linux et OS X
 cups-browsed = Imprimantes, Service de découverte d'imprimante de CUPS, Bonjour (zeroconf)
-zswapram = Admin, espace d'échange compressé dans la RAM
 
 [he_IL]
 anacron = Admin, Runs commands periodically
@@ -436,7 +421,6 @@ bluetooth = Networking, Bluetooth
 rsync = Networking, File copying tool
 cups = Printing, Linux and OS X printer service
 cups-browsed = Printing, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = םארב סוחד הפלחה חטש ,ןימדא
 
 [hi]
 anacron = प्रबंधक, Runs commands periodically
@@ -463,7 +447,6 @@ bluetooth = नेटवर्किंग, ब्लूटूथ
 rsync = नेटवर्किंग, File copying tool
 cups = प्रिंटिंग, Linux and OS X printer service
 cups-browsed = प्रिंटिंग, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = व्यवस्थापक, रैम में संपीड़ित स्वैप स्थान
 
 [hr]
 anacron = Admin, Pokreće naredbe periodično
@@ -490,7 +473,6 @@ bluetooth = Networking, Bluetooth
 rsync = Networking, Alat za kopiranje datoteka
 cups = Ispisivanje, Linux i OS X servis ispisa
 cups-browsed = Ispisivanje, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Admin, komprimirani swap prostor u ramu
 
 [hu]
 anacron = Admin, Runs commands periodically
@@ -517,7 +499,6 @@ bluetooth = Hálózatok, Bluetooth
 rsync = Hálózatok, File copying tool
 cups = Nyomtatás, Linux and OS X printer service
 cups-browsed = Nyomtatás, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Admin, tömörített swap terület a ramban
 
 [id]
 anacron = Admin, Runs commands periodically
@@ -544,7 +525,6 @@ bluetooth = Networking, Bluetooth
 rsync = Networking, File copying tool
 cups = Printing, Linux and OS X printer service
 cups-browsed = Printing, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Admin, ruang swap terkompresi di ram
 
 [is]
 anacron = Kerfisstjórnun, Runs commands periodically
@@ -571,7 +551,6 @@ bluetooth = Netkerfi, Bluetooth
 rsync = Netkerfi, File copying tool
 cups = Prentun, Linux and OS X printer service
 cups-browsed = Prentun, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Admin, þjappað skiptirými í hrút
 
 [it]
 anacron = Amministrazione, Avvia i comandi periodicamente
@@ -598,7 +577,6 @@ bluetooth = Impostazioni di rete, Bluetooth
 rsync = Impostazioni di rete, Strumento di copia File
 cups = Stampa, Servizio per la stampa in Linux e OS X
 cups-browsed = Stampa, CUPS Bonjour (zeroconf) servizio di rilevazione stampanti
-zswapram = Amministratore, spazio di swap compresso nella ram
 
 [ja]
 anacron = Admin, 定期的にコマンドを実行する
@@ -625,7 +603,6 @@ bluetooth = ネットワーク, Bluetooth
 rsync = ネットワーク, File copying tool
 cups = 印刷中, Linux・OS X 印刷サービス
 cups-browsed = 印刷中, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = 管理者、RAM 内の圧縮されたスワップ領域
 
 [kk]
 anacron = Admin, Runs commands periodically
@@ -652,7 +629,6 @@ bluetooth = Networking, Bluetooth
 rsync = Networking, File copying tool
 cups = Баспаға шығару, Linux and OS X printer service
 cups-browsed = Баспаға шығару, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Әкімші, жедел жадтағы сығылған своп кеңістігі
 
 [ko]
 anacron = Admin, Runs commands periodically
@@ -679,7 +655,6 @@ bluetooth = Networking, Bluetooth
 rsync = Networking, File copying tool
 cups = Printing, Linux and OS X printer service
 cups-browsed = Printing, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = 관리자, 램의 압축된 스왑 공간
 
 [lt]
 anacron = Administravimas, Periodiškai vykdo komandas
@@ -706,7 +681,6 @@ bluetooth = Darbas tinkle, Bluetooth
 rsync = Darbas tinkle, Failų kopijavimo įrankis
 cups = Spausdinimas, Linux ir OS X spausdinimo tarnyba
 cups-browsed = Spausdinimas, CUPS Bonjour (zeroconf) spausdintuvų atradimo tarnyba
-zswapram = Administratorius, suspausta apsikeitimo vieta RAM
 
 [mk]
 anacron = Admin, Runs commands periodically
@@ -733,7 +707,6 @@ bluetooth = Networking, Bluetooth
 rsync = Networking, File copying tool
 cups = Printing, Linux and OS X printer service
 cups-browsed = Printing, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Администратор, компримиран простор за размена во рамот
 
 [nb]
 anacron = Admin, Runs commands periodically
@@ -760,7 +733,6 @@ bluetooth = Netverks, Bluetooth
 rsync = Netverks, File copying tool
 cups = Printing, Linux and OS X printer service
 cups-browsed = Printing, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Admin, komprimert bytteplass i ram
 
 [nl]
 anacron = Admin, Runs commands periodically
@@ -787,7 +759,6 @@ bluetooth = Netwerken, Bluetooth
 rsync = Netwerken, Bestand kopiëergereedschap
 cups = Afdrukken, Linux and OS X printer service
 cups-browsed = Afdrukken, CUPS Bonjour (zeroconf) printer vinder service
-zswapram = Admin, gecomprimeerde swapruimte in ram
 
 [pl]
 anacron = Admin, Uruchamia polecenia okresowo
@@ -814,7 +785,6 @@ bluetooth = Sieć (networking), Bluetooth
 rsync = Sieć (networking), Narzędzie do kopiowania plików
 cups = Drukowanie, Usługa drukowania dla systemów Linux i OS X
 cups-browsed = Drukowanie, Usługa wykrywania drukarek CUPS Bonjour (zeroconf)
-zswapram = Administrator skompresował przestrzeń wymiany w pamięci RAM
 
 [pt_BR]
 anacron = Administrador, Executa os comandos periodicamente
@@ -841,7 +811,6 @@ bluetooth = Rede, Bluetooth
 rsync = Rede, Ferramenta de cópia de arquivos
 cups = Impressão, Serviço de impressoras para Linux e OS X
 cups-browsed = Impressão, Serviço descobridor de impressoras - CUPS Bonjour (zeroconf)
-zswapram = Admin, espaço de troca compactado em ram
 
 [pt]
 anacron = Administrar, Executa os comandos periodicamente
@@ -868,7 +837,6 @@ bluetooth = Redes, Bluetooth
 rsync = Redes, Ferramenta de cópia de ficheiros
 cups = Imprimir, Serviço de impressoras para Linux e OS X
 cups-browsed = Imprimir, Serviço de detecção de impressoras CUPS Bonjour (ou DNS Service Discovery)
-zswapram = Admin, espaço de troca compactado em ram
 
 [ro]
 anacron = Admin, Runs commands periodically
@@ -895,7 +863,6 @@ bluetooth = Rețea, Bluetooth
 rsync = Rețea, File copying tool
 cups = Tipărire, Linux and OS X printer service
 cups-browsed = Tipărire, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Administrator, spațiu de schimb comprimat în ram
 
 [ru]
 anacron = Admin, Выполняет команды периодически
@@ -922,7 +889,6 @@ bluetooth = Сеть, Блютуз
 rsync = Сеть, Утилита копирования файлов
 cups = Печать, Служба принтера Linux и OS X
 cups-browsed = Печать, Служба общего доступа к принтерам CUPS Bonjour
-zswapram = Админ, сжатое пространство подкачки в оперативной памяти
 
 [sk]
 anacron = Admin, Spúšťa príkazy opakovane
@@ -949,7 +915,6 @@ bluetooth = Sieť, Bluetooth
 rsync = Sieť, File copying tool
 cups = Tlač, Služba tlače pre Linux a OS X
 cups-browsed = Tlač, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Admin, komprimovaný swapový priestor v ram
 
 [sl]
 anacron = Administrator, Runs commands periodically
@@ -976,7 +941,6 @@ bluetooth = Omrežje, Bluetooth
 rsync = Omrežje, File copying tool
 cups = Tiskanje, Linux and OS X printer service
 cups-browsed = Tiskanje, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Admin, stisnjen izmenjalni prostor v ramu
 
 [sq]
 anacron = Admin, Runs commands periodically
@@ -1003,7 +967,6 @@ bluetooth = Networking, Bluetooth
 rsync = Networking, File copying tool
 cups = Printing, Linux and OS X printer service
 cups-browsed = Printing, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Admin, hapësirë e ngjeshur e shkëmbimit në ram
 
 [sr]
 anacron = Admin, Runs commands periodically
@@ -1030,7 +993,6 @@ bluetooth = Networking, Bluetooth
 rsync = Networking, File copying tool
 cups = Printing, Linux and OS X printer service
 cups-browsed = Printing, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Админ, компримовани свап простор у рам-у
 
 [sv]
 anacron = Administratör, Kör kommandon periodiskt
@@ -1057,7 +1019,6 @@ bluetooth = Nätverk, Bluetooth
 rsync = Nätverk, Filkopieringsverktyg
 cups = Utskrifter, Linux och OS X skrivartjänst
 cups-browsed = Utskrifter, CUPS Bonjour (zeroconf) sevice för att hitta skrivare
-zswapram = Admin, komprimerat växlingsutrymme i ram
 
 [tr]
 anacron = Yönetici, Runs commands periodically
@@ -1084,7 +1045,6 @@ bluetooth = Ağ kurma, Bluetooth
 rsync = Ağ kurma, File copying tool
 cups = Yazdırılıyor, Linux ve OS X yazıcı hizmeti
 cups-browsed = Yazdırılıyor, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Yönetici, koçta sıkıştırılmış takas alanı
 
 [uk]
 anacron = Admin, Runs commands periodically
@@ -1111,7 +1071,6 @@ bluetooth = Мережа, Bluetooth
 rsync = Мережа, File copying tool
 cups = Друк, Linux and OS X printer service
 cups-browsed = Друк, CUPS Bonjour (zeroconf) printer discovery service
-zswapram = Адміністратор, стислий простір підкачки в ram
 
 [zh_CN]
 anacron = Admin, Runs commands periodically
