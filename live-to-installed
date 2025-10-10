@@ -229,20 +229,12 @@ wm_files() {
     done
 }
 
-rm_file_all_user_home_dirs_desktops()
-{
-	local dir file="$1"
-	dir="$IDIR/home/*/Desktop"
-    file="$dir/$file"
-    $PRETEND find $file -xtype f -delete
-}
-
 rm_file_all_user_home_dirs()
 {
 	local dir file="$1"
 	dir="$IDIR/home"
-    file=$file"
-    $PRETEND find $IDIR -name $file -xtype f -delete
+    file=$file
+    $PRETEND find $file -xtype f -delete
 }
 
 
