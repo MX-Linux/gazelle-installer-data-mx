@@ -1,8 +1,8 @@
 gazelle-installer-data (25.10.02mx25) mx; urgency=medium
 
-  * touch a couple of fsck log files that must be present for sysvinit script to work
+  * touch fsck log files that must be present for sysvinit script to work
 
- -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 31 Oct 2025 11:51:15 -0400
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 31 Oct 2025 19:38:58 -0400
 
 gazelle-installer-data (25.10.01mx25) mx; urgency=medium
 
