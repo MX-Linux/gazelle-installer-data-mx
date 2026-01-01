@@ -50,7 +50,21 @@ main() {
 
     test -d $IDIR || error "$IDIR is not a directory"
     #del_line_skel xxxx ".%s/menu"
-
+    
+    #init check
+    if [ -L "$IDIR/sbin/init" ]; then
+    	if [ -L "$IDIR/sbin/init-systemd" ] && [ -L "$IDIR/sbin/init-sysvinit" ]; then
+    	    	local INIT=$(cat /proc/1/comm)    	    	
+    	    	case $INIT in
+    	    		systemd) rm "$IDIR/sbin/init"
+    	    		         ln -s --relative "$IDIR/lib/systemd/systemd" "$IDIR/sbin/init";;
+    	    		init) rm "$IDIR/sbin/init"
+    	    		          ln -s --relative "$IDIR/lib/sysvinit/init" "$IDIR/sbin/init";;
+    	    		        *) ;;
+    	        esac
+    	fi
+    fi
+    
     local ds_startup="etc/desktop-session/startup"
     local rox_pb=".config/rox.sourceforge.net/ROX-Filer/pb_antiX-%s"
 

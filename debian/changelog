@@ -1,3 +1,9 @@
+gazelle-installer-data (26.01.01mx25) mx; urgency=medium
+
+  * move live-to-installed to usr/bin
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 01 Jan 2026 18:25:18 -0500
+
 gazelle-installer-data (25.10.02mx25) mx; urgency=medium
 
   * touch fsck log files that must be present for sysvinit script to work

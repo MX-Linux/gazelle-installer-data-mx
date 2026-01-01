@@ -1,4 +1,4 @@
 *.* 			usr/share/gazelle-installer-data
 rc.local.install 	usr/share/antiX
-live-to-installed 	usr/sbin
+live-to-installed 	usr/bin
 
