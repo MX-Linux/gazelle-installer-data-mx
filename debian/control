@@ -2,8 +2,8 @@ Source: gazelle-installer-data
 Section: admin
 Priority: optional
 Maintainer: dolphin oracle  <dolphinoracle@gmail.com>
-Build-Depends: debhelper (>=10),
-Standards-Version: 3.9.5
+Build-Depends: debhelper-compat (= 12),
+Standards-Version: 4.5.1
 Vcs-Git: https://github.com/gazelle-installer/gazelle-installer-data
 
 Package: gazelle-installer-data-mx
