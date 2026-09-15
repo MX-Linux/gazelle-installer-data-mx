@@ -1,0 +1,59 @@
+# PKGBUILD for building on the Open Build Service.
+#
+# This package is not in AUR and has no committed source tarball, so the OBS
+# tar_scm service packs the checkout into one. That tarball has a constant name
+# rather than a versioned one, so pkgver here is free to track debian/changelog
+# and a release does not require editing the OBS service as well.
+#
+# Until now this package only reached MX-Arch as a prebuilt file dropped on the
+# ISO, so an installed system could never receive an update for it. Building it
+# on OBS puts it in the repository like every other package.
+#
+# The payload mirrors debian/install exactly; gazelle-installer reads these
+# paths, so they must not drift.
+
+# Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
+pkgname=gazelle-installer-data-mx
+pkgver=26.01.01mx25
+pkgrel=1
+pkgdesc="Branding and installer.conf data for gazelle-installer (MX Linux)"
+arch=('any')
+url="https://github.com/MX-Linux/gazelle-installer-data-mx"
+license=('GPL3')
+# Debian declares "Depends: mx-installer (>25.2)" and "Conflicts: mx-installer
+# (<< 25.2)". mx-installer is the Debian binary name for gazelle-installer and
+# has no packaged Arch equivalent yet, so both are left out rather than guessed.
+depends=()
+makedepends=()
+provides=('gazelle-installer-data')
+source=("${pkgname}-source.tar")
+sha256sums=('SKIP')
+
+# tar_scm unpacks to <repository>-<versionformat>; both are fixed here.
+_srcdir="${pkgname}-source"
+PKGEXT='.pkg.tar.zst'
+
+package() {
+    cd "${srcdir}/${_srcdir}"
+
+    # debian/install line 1: "*.*  usr/share/gazelle-installer-data"
+    # The glob matches every top-level file whose name contains a dot, which is
+    # the five data files below. rc.local.install matches too, so it ships here
+    # as well as under /usr/share/antiX, and keeps its executable bit.
+    install -dm755 "${pkgdir}/usr/share/gazelle-installer-data"
+    install -m644 backdrop-textbox.png "${pkgdir}/usr/share/gazelle-installer-data/"
+    install -m644 installer.conf       "${pkgdir}/usr/share/gazelle-installer-data/"
+    install -m644 logo.png             "${pkgdir}/usr/share/gazelle-installer-data/"
+    install -m644 services.list        "${pkgdir}/usr/share/gazelle-installer-data/"
+    install -m755 rc.local.install     "${pkgdir}/usr/share/gazelle-installer-data/"
+
+    # debian/install line 2: "rc.local.install  usr/share/antiX"
+    # live-to-installed copies this to etc/rc.local on the installed system.
+    install -Dm755 rc.local.install "${pkgdir}/usr/share/antiX/rc.local.install"
+
+    # debian/install line 3: "live-to-installed  usr/bin"
+    install -Dm755 live-to-installed "${pkgdir}/usr/bin/live-to-installed"
+
+    # License (Arch convention; Debian handles this via debian/copyright)
+    install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}
