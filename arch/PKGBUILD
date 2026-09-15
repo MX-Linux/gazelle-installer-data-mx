@@ -26,6 +26,10 @@ license=('GPL3')
 depends=()
 makedepends=()
 provides=('gazelle-installer-data')
+# Same files, same paths - usr/share/gazelle-installer-data, the antiX
+# rc.local.install and usr/bin/live-to-installed - so the two cannot coexist.
+# Without this pacman allows both and the second fails on raw file conflicts.
+conflicts=('gazelle-installer-data')
 source=("${pkgname}-source.tar")
 sha256sums=('SKIP')
 
