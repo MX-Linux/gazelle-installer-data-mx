@@ -1,3 +1,9 @@
+gazelle-installer-data (26.09.01mx25) mx; urgency=medium
+
+  * add zram and swapfile checkbox variables
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 20 Sep 2026 20:17:34 -0400
+
 gazelle-installer-data (26.01.01mx25) mx; urgency=medium
 
   * move live-to-installed to usr/bin
